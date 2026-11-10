@@ -1,0 +1,53 @@
+/* Mise en forme commune à toutes les pages */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #24476b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #e6edf5;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #24476b;
+    text-decoration: none;
+    margin: 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.contenu {
+    background-color: white;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #24476b;
+}
+
+p, li {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    color: #666666;
+    padding: 15px;
+}
